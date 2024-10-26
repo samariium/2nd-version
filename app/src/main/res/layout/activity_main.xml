@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to Add Expense -->
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Expense" />
+
+    <!-- Button to Show Expenses -->
+    <Button
+        android:id="@+id/buttonShowExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Expenses" />
+
+    <!-- Empty View Layout -->
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"> <!-- Initially hidden -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No expenses available" />
+    </LinearLayout>
+
+    <!-- Remove RecyclerView -->
+    <!-- <RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" /> --> <!-- RecyclerView has been removed -->
+
+</LinearLayout>

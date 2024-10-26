@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SplitEase</string> <!-- App name -->
+    <string name="welcome_message">Welcome message</string>
+    <string name="expense_summary">Your total expenses summary</string>
+    <string name="add_expense_button">Add Expense button</string>
+    <string name="view_expenses_button">View Expenses button</string>
+    <string name="logout_button">Logout button</string>
+</resources>
